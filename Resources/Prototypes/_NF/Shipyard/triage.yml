@@ -1,0 +1,29 @@
+- type: vessel
+  id: Triage
+  name: BIS Triage
+  description: Insert description here
+  price: 14950
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/triage.yml
+
+- type: gameMap
+  id: Triage
+  mapName: 'BIS Triage'
+  mapPath: /Maps/_NF/Shuttles/triage.yml
+  minPlayers: 0
+  stations:
+    Triage:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Triage {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
