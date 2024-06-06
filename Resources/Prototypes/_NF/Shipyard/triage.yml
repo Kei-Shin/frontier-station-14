@@ -1,7 +1,7 @@
 - type: vessel
   id: Triage
   name: BIS Triage
-  description: Insert description here
+  description: A small medical ship built by Bird Brain Industries meant for search and rescue.
   price: 14950
   category: Small
   group: Civilian
