@@ -689,6 +689,13 @@ entities:
     - type: Transform
       pos: -2.5445936,-5.3007383
       parent: 2
+- proto: ComputerTabletopCrewMonitoring
+  entities:
+  - uid: 74
+    components:
+    - type: Transform
+      pos: -0.5,3.5
+      parent: 2
 - proto: ComputerTabletopShuttle
   entities:
   - uid: 70
@@ -754,10 +761,10 @@ entities:
       parent: 2
 - proto: FaxMachineShip
   entities:
-  - uid: 74
+  - uid: 110
     components:
     - type: Transform
-      pos: -0.5,3.5
+      pos: 2.5,2.5
       parent: 2
 - proto: GasPassiveVent
   entities:
@@ -1363,10 +1370,10 @@ entities:
       parent: 2
 - proto: PlushieVox
   entities:
-  - uid: 110
+  - uid: 255
     components:
     - type: Transform
-      pos: 2.6507049,2.6193023
+      pos: 3.732334,-5.2323303
       parent: 2
 - proto: PortableGeneratorPacmanShuttle
   entities:
