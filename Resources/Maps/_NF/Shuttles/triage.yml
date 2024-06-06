@@ -745,6 +745,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: -2.5,-7.5
       parent: 2
+- proto: ExtinguisherCabinetFilled
+  entities:
+  - uid: 254
+    components:
+    - type: Transform
+      pos: -0.5,-1.5
+      parent: 2
 - proto: FaxMachineShip
   entities:
   - uid: 74
@@ -1525,7 +1532,7 @@ entities:
   - uid: 235
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
+      rot: 3.141592653589793 rad
       pos: 1.5,-0.5
       parent: 2
 - proto: SuitStorageWallmountParamedic
