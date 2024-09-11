@@ -38,8 +38,8 @@
   files:
     - /Audio/Nyanotrasen/Voice/Felinid/cat_hiss1.ogg
     - /Audio/Nyanotrasen/Voice/Felinid/cat_hiss2.ogg
-    # - /Audio/Weapons/ebladeon.ogg # Frontier: why
-    # - /Audio/Weapons/eblade1.ogg # Frontier: why
+    - /Audio/Weapons/ebladeon.ogg
+    - /Audio/Weapons/eblade1.ogg
     - /Audio/Items/hiss.ogg
     - /Audio/Items/hypospray.ogg
     - /Audio/Items/ratchet.ogg
@@ -49,7 +49,7 @@
     - /Audio/Machines/airlock_ext_open.ogg
     - /Audio/Machines/airlock_open.ogg
     - /Audio/Machines/disposalflush.ogg
-    # - /Audio/Machines/printer.ogg # Frontier: why
+    # - /Audio/Machines/printer.ogg # Frontier: why, not a hiss
     - /Audio/Machines/windoor_open.ogg
     - /Audio/Effects/spray.ogg
     - /Audio/Effects/spray2.ogg
@@ -103,15 +103,15 @@
   id: HarpyPurrs
   files:
     - /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
-    # - /Audio/Mecha/sound_mecha_hydraulic.ogg # Frontier: loud
+  # - /Audio/Mecha/sound_mecha_hydraulic.ogg # Frontier: loud, not a purr
 
 - type: soundCollection
   id: HarpyRings
   files:
     - /Audio/Items/desk_bell_ring.ogg
-    # - /Audio/Items/ring.ogg # Frontier: loud
-    # - /Audio/Machines/ding.ogg # Frontier: long
-    # - /Audio/Machines/warning_buzzer.ogg # Frontier: long
+    - /Audio/Items/ring.ogg
+    - /Audio/Machines/ding.ogg
+    - /Audio/Machines/warning_buzzer.ogg
 
 - type: soundCollection
   id: HarpyHonks
@@ -131,27 +131,27 @@
     - /Audio/Effects/Arcade/player_attack.ogg
     - /Audio/Effects/Arcade/player_charge.ogg
     - /Audio/Effects/Arcade/player_heal.ogg
-    # - /Audio/Magic/staff_animation.ogg # Frontier: loud
-    # - /Audio/Magic/staff_change.ogg # Frontier: loud
-    # - /Audio/Magic/staff_chaos.ogg # Frontier: loud
-    # - /Audio/Magic/staff_door.ogg # Frontier: not a pew
-    # - /Audio/Magic/staff_healing.ogg # Frontier: not a pew
+    - /Audio/Magic/staff_animation.ogg
+    - /Audio/Magic/staff_change.ogg
+    - /Audio/Magic/staff_chaos.ogg
+    - /Audio/Magic/staff_door.ogg
+    - /Audio/Magic/staff_healing.ogg
 
 - type: soundCollection
   id: HarpyBangs
   files:
     - /Audio/Weapons/Guns/Gunshots/atreides.ogg
-    # - /Audio/Weapons/Guns/Gunshots/bang.ogg # Frontier: loud
+    - /Audio/Weapons/Guns/Gunshots/bang.ogg
     - /Audio/Weapons/Guns/Gunshots/mk58.ogg
     - /Audio/Weapons/Guns/Gunshots/pistol.ogg
     - /Audio/Weapons/Guns/Gunshots/c-20r.ogg
     - /Audio/Items/snap.ogg
     - /Audio/Machines/blastdoor.ogg
     - /Audio/Machines/machine_vend.ogg
-    # - /Audio/Magic/disintegrate.ogg # Frontier: long, LOUD
-    # - /Audio/Magic/fireball.ogg # Frontier: loud
-    # - /Audio/Magic/forcewall.ogg # Frontier: loud
-    # - /Audio/Magic/knock.ogg # Frontier: long
+    - /Audio/Magic/disintegrate.ogg
+    - /Audio/Magic/fireball.ogg
+    - /Audio/Magic/forcewall.ogg
+    - /Audio/Magic/knock.ogg
 
 - type: soundCollection
   id: HarpyBeeps
@@ -195,9 +195,9 @@
   id: HarpyRevs
   files:
     - /Audio/Weapons/chainsawwield.ogg
-    # - /Audio/Machines/blender.ogg # Frontier: grating
-    # - /Audio/Machines/juicer.ogg # Frontier: grating
-    # - /Audio/Machines/reclaimer_startup.ogg # Frontier: grating
+    - /Audio/Machines/blender.ogg
+    - /Audio/Machines/juicer.ogg
+    - /Audio/Machines/reclaimer_startup.ogg
 
 - type: soundCollection
   id: HarpyClicks
@@ -209,15 +209,15 @@
     - /Audio/Items/pistol_magin.ogg
     - /Audio/Items/pistol_magout.ogg
     # - /Audio/Items/rped.ogg # Frontier: grating
-    # - /Audio/Machines/door_lock_off.ogg # Frontier: loud
-    # - /Audio/Machines/door_lock_on.ogg # Frontier: loud
+    - /Audio/Machines/door_lock_off.ogg
+    - /Audio/Machines/door_lock_on.ogg
     - /Audio/Machines/id_swipe.ogg
     - /Audio/Machines/machine_switch.ogg
     - /Audio/Machines/screwdriveropen.ogg
 
 - type: soundCollection
   id: HarpyChitter
-  files: 
+  files:
     - /Audio/Voice/Moth/moth_chitter.ogg
     # - /Audio/Machines/circuitprinter.ogg # Frontier: long
     # - /Audio/Machines/diagnoser_printing.ogg # Frontier: long
@@ -226,18 +226,18 @@
 
 - type: soundCollection
   id: HarpySqueak
-  files: 
+  files:
     - /Audio/Voice/Moth/moth_squeak.ogg
     - /Audio/Animals/mouse_squeak.ogg
 
 - type: soundCollection
   id: HarpyCaws
-  files: 
+  files:
     - /Audio/DeltaV/Voice/Harpy/caw1.ogg
 
 - type: soundCollection
   id: HarpyChirps
-  files: 
+  files:
     - /Audio/DeltaV/Voice/Harpy/chirp1.ogg
     - /Audio/Voice/Talk/pai.ogg
     - /Audio/Voice/Talk/pai_ask.ogg
@@ -245,7 +245,7 @@
 
 - type: soundCollection
   id: HarpyGasp
-  files: 
+  files:
   - /Audio/Effects/Gasp/gasp_male1.ogg
   - /Audio/Effects/Gasp/gasp_male2.ogg
   - /Audio/Effects/Gasp/gasp_female1.ogg
@@ -254,7 +254,7 @@
 
 - type: soundCollection
   id: HarpyDeathGasp
-  files: 
+  files:
   - /Audio/Effects/Gasp/male_deathgasp_1.ogg
   - /Audio/Effects/Gasp/male_deathgasp_2.ogg
   - /Audio/Effects/Gasp/male_deathgasp_3.ogg
@@ -272,6 +272,6 @@
 # Frontier
 - type: soundCollection
   id: HarpySquishes
-  files: 
+  files:
   - /Audio/Voice/Slime/slime_squish.ogg
 # End Frontier
