@@ -103,15 +103,15 @@
   id: HarpyPurrs
   files:
     - /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
-  # - /Audio/Mecha/sound_mecha_hydraulic.ogg # Frontier: loud, not a purr
+    # - /Audio/Mecha/sound_mecha_hydraulic.ogg # Frontier: loud, not a purr
 
 - type: soundCollection
   id: HarpyRings
   files:
     - /Audio/Items/desk_bell_ring.ogg
-    - /Audio/Items/ring.ogg
-    - /Audio/Machines/ding.ogg
-    - /Audio/Machines/warning_buzzer.ogg
+    # - /Audio/Items/ring.ogg # Frontier: loud
+    # - /Audio/Machines/ding.ogg
+    # - /Audio/Machines/warning_buzzer.ogg
 
 - type: soundCollection
   id: HarpyHonks
@@ -131,9 +131,9 @@
     - /Audio/Effects/Arcade/player_attack.ogg
     - /Audio/Effects/Arcade/player_charge.ogg
     - /Audio/Effects/Arcade/player_heal.ogg
-    - /Audio/Magic/staff_animation.ogg
-    - /Audio/Magic/staff_change.ogg
-    - /Audio/Magic/staff_chaos.ogg
+    # - /Audio/Magic/staff_animation.ogg # Frontier: loud
+    # - /Audio/Magic/staff_change.ogg # Frontier: loud
+    # - /Audio/Magic/staff_chaos.ogg # Frontier: loud
     - /Audio/Magic/staff_door.ogg
     - /Audio/Magic/staff_healing.ogg
 
@@ -141,17 +141,17 @@
   id: HarpyBangs
   files:
     - /Audio/Weapons/Guns/Gunshots/atreides.ogg
-    - /Audio/Weapons/Guns/Gunshots/bang.ogg
+    # - /Audio/Weapons/Guns/Gunshots/bang.ogg # Frontier: loud
     - /Audio/Weapons/Guns/Gunshots/mk58.ogg
     - /Audio/Weapons/Guns/Gunshots/pistol.ogg
     - /Audio/Weapons/Guns/Gunshots/c-20r.ogg
     - /Audio/Items/snap.ogg
     - /Audio/Machines/blastdoor.ogg
     - /Audio/Machines/machine_vend.ogg
-    - /Audio/Magic/disintegrate.ogg
-    - /Audio/Magic/fireball.ogg
-    - /Audio/Magic/forcewall.ogg
-    - /Audio/Magic/knock.ogg
+    # - /Audio/Magic/disintegrate.ogg # Frontier: long, LOUD
+    # - /Audio/Magic/fireball.ogg # Frontier: loud
+    # - /Audio/Magic/forcewall.ogg # Frontier: loud
+    # - /Audio/Magic/knock.ogg # Frontier: long
 
 - type: soundCollection
   id: HarpyBeeps
@@ -195,9 +195,9 @@
   id: HarpyRevs
   files:
     - /Audio/Weapons/chainsawwield.ogg
-    - /Audio/Machines/blender.ogg
-    - /Audio/Machines/juicer.ogg
-    - /Audio/Machines/reclaimer_startup.ogg
+    - /Audio/Machines/blender.ogg # Frontier: grating
+    - /Audio/Machines/juicer.ogg # Frontier: grating
+    - /Audio/Machines/reclaimer_startup.ogg # Frontier: grating
 
 - type: soundCollection
   id: HarpyClicks
@@ -209,8 +209,8 @@
     - /Audio/Items/pistol_magin.ogg
     - /Audio/Items/pistol_magout.ogg
     # - /Audio/Items/rped.ogg # Frontier: grating
-    - /Audio/Machines/door_lock_off.ogg
-    - /Audio/Machines/door_lock_on.ogg
+    # - /Audio/Machines/door_lock_off.ogg # Frontier: loud
+    # - /Audio/Machines/door_lock_on.ogg # Frontier: loud
     - /Audio/Machines/id_swipe.ogg
     - /Audio/Machines/machine_switch.ogg
     - /Audio/Machines/screwdriveropen.ogg
